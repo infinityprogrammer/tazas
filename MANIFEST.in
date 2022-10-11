@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tazas *.css
+recursive-include tazas *.csv
+recursive-include tazas *.html
+recursive-include tazas *.ico
+recursive-include tazas *.js
+recursive-include tazas *.json
+recursive-include tazas *.md
+recursive-include tazas *.png
+recursive-include tazas *.py
+recursive-include tazas *.svg
+recursive-include tazas *.txt
+recursive-exclude tazas *.pyc
